@@ -6,17 +6,26 @@
         background-color: #eee;
 }
 .header .nav{
-
 }
-.header .nav li{
+.header li{
 float:left;
-display: inline-block;
-width: 80px;
-font-size:20px;
-height: 50px;
+display: inline;
+width: 100px;
+font-size:1em;
+font-weight: 600;
+padding:22px;
+text-align:center;
 }
 
 
+
+.nav a:hover {
+    color: #000;
+  background-color: #ecf0f1;
+    border-radius: 3px;
+  opacity: 0.75;
+    font-weight: bold;
+  box-shadow: 3px 3px 12px #888888;}
 
 a{
 text-decoration: none;
@@ -48,8 +57,15 @@ text-decoration: none;
         border: green 1px solid;
 
 }
+.content li {
+    font-size: 2em;
+}
 
-.footer {
+.content h3 {
+    text-align: left;
+    padding-left: 10;
+}
+footer {
     margin-top:1em;
     background-color: #cc8726;
     color: #ffffff;
